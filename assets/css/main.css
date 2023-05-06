@@ -1,0 +1,93 @@
+@font-face {
+  font-family: Brandon-Light;
+  src: url("../fonts/Brandon_lgt.otf");
+}
+
+@font-face {
+  font-family: Brandon-Regular;
+  src: url("../fonts/Brandon_reg.otf");
+}
+
+@font-face {
+  font-family: Brandon-Medium;
+  src: url("../fonts/Brandon_med.otf");
+}
+
+@font-face {
+  font-family: Brandon-Bold;
+  src: url("../fonts/Brandon_bld.otf");
+}
+
+@font-face {
+  font-family: Brandon-Black;
+  src: url("../fonts/Brandon_blk.otf");
+}
+
+.brandon-light {
+  font-family: Brandon-Light;
+}
+
+.brandon-medium {
+  font-family: Brandon-Medium;
+}
+
+.brandon-bold {
+  font-family: Brandon-Bold;
+}
+
+.brandon-black {
+  font-family: Brandon-Bedium;
+}
+
+body {
+  font-family: Brandon-regular;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #fcfcfc;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+span {
+  line-height: 126% !important;
+}
+
+button,
+a {
+  transition: 0.3s;
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1116px !important;
+  }
+}
+
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  list-style: none;
+  margin: 24px auto 0;
+  padding: 0;
+}
+
+.slick-dots li {
+  width: 11px;
+  height: 11px;
+  border-radius: 99px;
+  background-color: #797979;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.slick-dots .slick-active {
+  background-color: #567366;
+}
+
+.slick-dots button {
+  display: none;
+}
